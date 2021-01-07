@@ -1,0 +1,57 @@
+1.  Inicio
+2.  funcion principal()
+3.      opcion, [i-0]
+4.      Escribir ¨Ingrese una de las tres opciones: \n¨
+5.      Escribir ¨Ingrese 1 para sacar el valor de la plantilla de luz: \n
+6.                Ingrese 2 para sacar el valor del predio de un bien inmueble: \n
+7.      leer opcion
+8.       Si (opcion = 1) entonces
+9.    	    calcularValorLuz()
+10.      De lo contrario
+11.         Si (opcion = 2) entonces
+12.             calcularprecio()	
+13.         De lo contrario
+14.         Fin Si
+15.      Fin Si
+16.  fin funcion principal 
+17.  funcion calcularValorLuz()
+18.      cedula, x(100) {(0-100)}
+19.      nombre, x(100) {(A-Z), (a-z)}
+20.      kilovatio, [d-0]
+21.      numeroki, [d-0]
+22.      valor, [d-0]
+23.      Escribir ¨Ingrese su nombre COMPLETO: ¨
+24.      leer nombre    
+26.      Escribir ¨Ingrese su numero de cedula: ¨
+27.      leer cedula
+28.      Escribir ¨Ingrese el valor del kilovatio: ¨
+29.      leer kilovatio 
+30.      Escribir ¨Ingrese el numero de kilovatios al mes: ¨
+31.      leer numeroki
+32.      valor <-- kilovatio * numeroki 
+33.      Escribir (¨Cliente %s con cedula %s debe cancelar el valor de $%f.2\n¨,
+                 nombre,
+                 cedula,
+                 valor) 
+34.  fin funcion alcularValorLuz()
+35.
+36.  funcion calcularprecio()
+37.      cedula, x(100) {(0-100)}
+38.      nombre, x(100) {(A-Z), (a-z)}
+39.      inmueble, [d-0]
+40.      valor, [d-0]
+41.      Escribir ¨Ingrese su nombre COMPLETO: ¨
+42.      leer nombre    
+43.      Escribir ¨Ingrese su numero de cedula: ¨
+44.      leer cedula
+45.      Escribir ¨Ingrese el valor del inmueble: ¨
+46.      leer kilovatio 
+47.      valor <-- inmueble * 0.2
+48.      Escribir (¨Cliente %s con cedula %s tiene un bien inmueble valorado en $%f.2\n
+                  y tiene que pagar de precio %f.2\n¨,
+                 nombre,
+                 cedula,
+                 inmueble,
+                 valor)  
+49.  fin funcion calcularprecio()
+ 

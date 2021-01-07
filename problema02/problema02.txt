@@ -1,0 +1,54 @@
+1.  Inicio
+2.  funcion principal()
+3.    obtenerPromedio()
+4.  fin funcion principal
+5.   funcion obtenerPromedio()
+6.     nota1, [d-0]
+7.     nota2, [d-0]
+8.     nota3, [d-0]
+9.     nota4, [d-0]
+10.     suma,  [d-0]
+11.     promedio, [d-0]
+12.     Esccribir ¨Ingrese el valor de la nota1: ¨
+13.     leer nota1
+14.     Esccribir ¨Ingrese el valor de la nota2: ¨
+15.     leer nota2
+16.     Esccribir ¨Ingrese el valor de la nota3: ¨
+17.     leer nota3
+18.     Esccribir ¨Ingrese el valor de la nota4: ¨
+19.     leer nota4
+20.     suma = nota1 + nota2 + nota3 +nota4
+21.     promedio = suma / 4
+22.       Si (promedio > 0 and promedio < 5) entonces
+23.    	    Escribir ¨El promedio de las notas: %d,%d,%d,%d es Regular¨, 
+            nota1,
+            nota2,
+            nota3,
+            nota4)
+24.        De lo contrario
+25.           Si (promedio > 5.1 and promedio < 8) entonces
+26.    	        Escribir (¨El promedio de las notas: %d,%d,%d,%d es Bueno¨, 
+                nota1,
+                nota2,
+                nota3,
+                nota4)
+27.           De lo contrario
+28.             Si (promedio > 8.1 and promedio < 9) entonces
+29.    	           Escribir (¨El promedio de las notas: %d,%d,%d,%d es Muy Bueno¨, 
+                   nota1,
+                   nota2,
+                   nota3,
+                   nota4)
+30.             De lo contrario
+31.                Si (promedio > 9.1 and promedio < 10) entonces
+32.    	              Escribir (¨El promedio de las notas: %d,%d,%d,%d es Sobresaliente¨, 
+                      nota1,
+                      nota2,
+                      nota3,
+                      nota4)
+33.                De lo contrario
+34.                Fin si       
+35.           Fin si          
+36.        Fin si
+37.     fin funcion obtenerPromedio()  
+38.Fin

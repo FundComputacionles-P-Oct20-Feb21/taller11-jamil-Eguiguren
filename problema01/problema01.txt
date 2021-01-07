@@ -1,0 +1,55 @@
+1.  Inicio
+2.  funcion principal()
+3.      opcion, [i-0]
+4.      Escribir ¨Ingrese una de las tres opciones: \n¨
+5.      Escribir ¨Ingrese 1 para sacar el area de un cuadrado: \n
+6.                Ingrese 2 para sacar el area de un triangulo: \n
+7.                Ingrese 3 para sacar el area de un rectangulo: \n¨
+8.      leer opcion
+9.       Si (opcion = 1) entonces
+10.    	    obtenerAreaCuadrado()
+11.      De lo contrario
+12.         Si (opcion = 2) entonces
+13.             obtenerAreaTriangulo()	
+14.         De lo contrario
+15.             Si (opcion = 3) entonces
+16.                obtenerArearectangulo()
+17.             De lo contrario
+18.               Escribir ¨Error, intete colocar los numero presentados¨ 
+19.		FinSi
+20.         Fin Si
+21.	 Fin Si
+22.  fin funcion principal 
+23.  funcion obtenerAreaCuadrado()
+24.         lado, [d-0]
+25.         area, [d-0]
+26.         Esccribir ¨Ingrese el valor del lado del cuadrado: ¨
+27.         leer lado
+28.         area <-- lado * lado
+29.         Escrbir ¨El area del cuadrado es: ¨ + area
+30.  fin funcion obtenerSuma
+31.
+32.  funcion obtenerAreaTriangulo()
+33.         base, [d-0]
+34.         altura, [d-0]
+35.         area, [d-0]
+36.         Esccribir ¨Ingrese el valor de la base del triangulo: ¨
+37.         leer base
+38.         Esccribir ¨Ingrese el valor de la altura del triangulo: ¨
+39.         leer altura
+30.         area <-- (base * altura) / 2 
+40.         Escrbir ¨El area del triangulo es: ¨ + area
+41.  fin funcion obtenerAreaTriangulo
+42.
+43.  funcion obtenerArearectangulo()
+44.         base, [d-0]
+45.         altura, [d-0]
+46.         area, [d-0]
+47.         Esccribir ¨Ingrese el valor de la base del recctangulo: ¨
+48.         leer base
+49.         Esccribir ¨Ingrese el valor de la altura del rectangulo: ¨
+50.         leer altura
+51.         area <-- base * altura 
+52.         Escrbir ¨El area del rectangulo es: ¨ + area
+53.  fin funcion obtenerArearectangulo
+54. Fin
